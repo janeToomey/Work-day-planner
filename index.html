@@ -4,16 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--Bootstrap link-->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
+    <!--FontAwesome Links-->
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/b022a2af41.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--google fonts link-->
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
@@ -26,14 +34,81 @@
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p>
+      <p id="currentDay" class="lead">Today: <span id="currentDate"></span></p>
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
+      <!--9am-->
       <div class="container-row">
         <div id="9" class="time-row">9AM</div>
         <textarea title="enter your event here"></textarea>
-        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-info saveBtn">
+          <i class="fas fa-folder-plus"></i> Save
+        </button>
+      </div>
+      <!--10am-->
+      <div class="container-row">
+        <div id="10" class="time-row">10AM</div>
+        <textarea title="enter your event here"></textarea>
+        <button type="button" class="btn btn-info saveBtn">
+          <i class="fas fa-folder-plus"></i> Save
+        </button>
+      </div>
+      <!--11am-->
+      <div class="container-row">
+        <div id="11" class="time-row">11AM</div>
+        <textarea title="enter your event here"></textarea>
+        <button type="button" class="btn btn-info saveBtn">
+          <i class="fas fa-folder-plus"></i> Save
+        </button>
+      </div>
+      <!--12pm-->
+      <div class="container-row">
+        <div id="12" class="time-row">12PM</div>
+        <textarea title="enter your event here"></textarea>
+        <button type="button" class="btn btn-info saveBtn">
+          <i class="fas fa-folder-plus"></i> Save
+        </button>
+      </div>
+      <!--1pm-->
+      <div class="container-row">
+        <div id="1" class="time-row">1PM</div>
+        <textarea title="enter your event here"></textarea>
+        <button type="button" class="btn btn-info saveBtn">
+          <i class="fas fa-folder-plus"></i> Save
+        </button>
+      </div>
+      <!--2pm-->
+      <div class="container-row">
+        <div id="2" class="time-row">2PM</div>
+        <textarea title="enter your event here"></textarea>
+        <button type="button" class="btn btn-info saveBtn">
+          <i class="fas fa-folder-plus"></i> Save
+        </button>
+      </div>
+      <!--3pm-->
+      <div class="container-row">
+        <div id="3" class="time-row">3PM</div>
+        <textarea title="enter your event here"></textarea>
+        <button type="button" class="btn btn-info saveBtn">
+          <i class="fas fa-folder-plus"></i> Save
+        </button>
+      </div>
+      <!--4pm-->
+      <div class="container-row">
+        <div id="4" class="time-row">4PM</div>
+        <textarea title="enter your event here"></textarea>
+        <button type="button" class="btn btn-info saveBtn">
+          <i class="fas fa-folder-plus"></i> Save
+        </button>
+      </div>
+      <!--5pm-->
+      <div class="container-row">
+        <div id="5" class="time-row">5PM</div>
+        <textarea title="enter your event here"></textarea>
+        <button type="button" class="btn btn-info saveBtn">
+          <i class="fas fa-folder-plus"></i> Save
+        </button>
       </div>
     </div>
     <!-- JQUERY link tag -->
